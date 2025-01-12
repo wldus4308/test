@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>상담 예약</title>
+</head>
+<body>
+  <form id="contactForm">
+    <label for="name">성명:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="phone">연락처:</label>
+    <input type="tel" id="phone" name="phone" required><br>
+
+    <label for="message">상담내용:</label>
+    <textarea id="message" name="message" required></textarea><br>
+
+    <button type="button" id="submitButton">상담 예약</button>
+  </form>
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
